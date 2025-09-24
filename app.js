@@ -44,6 +44,9 @@ console.log("All Universities:", allUniversities.slice(0, 3));
 const cu = getUniversityFilter((uni) => uni.short_name_en === "CU");
 console.log("Chulalongkorn University:", cu);
 
+const kmitl = getUniversityFilter((uni) => uni.short_name_en === "KMITL");
+console.log("KMITL:", kmitl);
+
 // Find: หา TU
 const tu = getUniversityFind((uni) => uni.short_name_en === "TU");
 console.log("Thammasat University:", tu);
