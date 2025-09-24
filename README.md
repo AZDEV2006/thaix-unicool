@@ -102,7 +102,6 @@ console.log("University list:", uniList.slice(0, 5));
 
 ## จุดประสงค์
 
-- ใช้ `thaiUnicool<T>` เพื่อฝึกการเขียน **Generic Class ใน TypeScript**  
 - เรียนรู้การใช้งาน **chain method** (`getAll().filter().map().all()`)  
 - ใช้เป็น Workshop สำหรับนักพัฒนา
 - ใช้เพื่อการศึกษาเท่านั้น
