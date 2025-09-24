@@ -1,4 +1,4 @@
-# ThaiUnicool Tutor
+# ThaiXUnicool
 
 โปรเจกต์ตัวอย่างสำหรับการใช้งาน **thaiUnicool**  
 Library ที่ช่วยให้คุณ filter, find, map ข้อมูลโรงเรียนและมหาวิทยาลัยของไทยได้ง่าย ๆ  
