@@ -1,4 +1,4 @@
-# ThaiUnicool Tutor
+# ThaiXUnicool
 
 โปรเจกต์ตัวอย่างสำหรับการใช้งาน **thaiUnicool**  
 Library ที่ช่วยให้คุณ filter, find, map ข้อมูลโรงเรียนและมหาวิทยาลัยของไทยได้ง่าย ๆ  
@@ -102,7 +102,6 @@ console.log("University list:", uniList.slice(0, 5));
 
 ## จุดประสงค์
 
-- ใช้ `thaiUnicool<T>` เพื่อฝึกการเขียน **Generic Class ใน TypeScript**  
 - เรียนรู้การใช้งาน **chain method** (`getAll().filter().map().all()`)  
 - ใช้เป็น Workshop สำหรับนักพัฒนา
 - ใช้เพื่อการศึกษาเท่านั้น
