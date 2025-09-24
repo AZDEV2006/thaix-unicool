@@ -1,4 +1,4 @@
-import thaiXUnicool from "./thaix-unicool_lib.ts";
+import thaiXUnicool from "./thaix-unicool_lib.js";
 import type { SchoolDataTypes } from "./types/schoolDataTypes.ts";
 import schoolData from './src/unicool-school.json' with { type: "json" };
 import type { UniversityDataTypes } from "./types/universityDataTypes.ts";

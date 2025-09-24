@@ -1,0 +1,10 @@
+import thaiXUnicool from "./thaix-unicool_lib.js";
+import type { SchoolDataTypes } from "./types/schoolDataTypes.ts";
+import type { UniversityDataTypes } from "./types/universityDataTypes.ts";
+declare const getSchool: () => thaiXUnicool<SchoolDataTypes>;
+declare const getSchoolAndFilter: (filter: (e: SchoolDataTypes) => Boolean) => SchoolDataTypes[];
+declare const getSchoolAndFind: (find: (e: SchoolDataTypes) => Boolean) => SchoolDataTypes[];
+declare const getUniversity: () => thaiXUnicool<UniversityDataTypes>;
+declare const getUniversityFilter: (filter: (e: UniversityDataTypes) => Boolean) => UniversityDataTypes[];
+declare const getUniversityFind: (find: (e: UniversityDataTypes) => Boolean) => UniversityDataTypes[];
+export { getSchool, getSchoolAndFilter, getSchoolAndFind, getUniversity, getUniversityFilter, getUniversityFind };
